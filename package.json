@@ -1,0 +1,19 @@
+{
+  "name": "compare-css-frameworks",
+  "version": "1.0.0",
+  "description": "Compare CSS-Frameworks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackosh/compare-css-frameworks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackosh/compare-css-frameworks/issues"
+  },
+  "homepage": "https://github.com/jackosh/compare-css-frameworks#readme",
+}

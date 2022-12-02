@@ -1,0 +1,7 @@
+#main-wrapper {
+    min-width: 1200px !important;
+}
+#header {
+    height: 124px;
+    background-image: url('/images/clavey_header_bg_w1000_h150.png');
+}

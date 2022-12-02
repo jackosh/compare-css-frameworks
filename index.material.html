@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+</head>
+<body>
+    <h1>Compare CSS-Frameworks</h1>
+
+    <label class="mdc-text-field mdc-text-field--filled">
+        <span class="mdc-text-field__ripple"></span>
+        <span class="mdc-floating-label" id="my-label-id">Hint text</span>
+        <input class="mdc-text-field__input" type="text" aria-labelledby="my-label-id">
+        <span class="mdc-line-ripple"></span>
+    </label>
+    <label class="mdc-text-field mdc-text-field--outlined">
+        <span class="mdc-notched-outline">
+          <span class="mdc-notched-outline__leading"></span>
+          <span class="mdc-notched-outline__notch">
+            <span class="mdc-floating-label" id="my-label-id">Your Name</span>
+          </span>
+          <span class="mdc-notched-outline__trailing"></span>
+        </span>
+        <input type="text" class="mdc-text-field__input" aria-labelledby="my-label-id">
+    </label>
+
+    <button class="mdc-button foo-button">
+        <div class="mdc-button__ripple"></div>
+        <span class="mdc-button__label">Button</span>
+    </button>
+
+    <script>
+        const buttons = document.querySelectorAll(".mdc-button");
+        for (const button of buttons) {
+            mdc.ripple.MDCRipple.attachTo(button);
+        }
+        mdc.autoInit()
+    </script>
+</body>
+</html>
